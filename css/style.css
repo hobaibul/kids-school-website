@@ -1,0 +1,537 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Share Style */
+body{
+    background-image: url('../assets/bg.png');
+    margin-bottom: 400px;
+    
+}
+header,.banner, .curriculam_section, .stories_container,.footer_wrapper{
+    max-width: 1160px;
+    margin: 0 auto;
+    
+}
+.primary_btn{
+    background-color: #FEA301;
+    padding: 10px 60px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* color name */
+
+.orange{
+    color: #FEA301;
+}
+.skyblue{
+    color: #01ACFD;
+}
+.green{
+    color: #05D4DF;
+}
+.blue{
+    color: #5D58EF;
+}
+.black{
+    color: #111111;
+}
+.bg_olive{
+    background: #95B226;
+}
+
+
+/* Header Style */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 62px;
+    width: 62px;
+}
+.brand{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    margin-left: 10px;
+}
+.nav_items{
+    display: flex;
+
+}
+.nav_item{
+    list-style: none;
+    margin-right: 32px;
+    display: block;
+}
+.nav_link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.links_container{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+}
+#sideber_active{
+    display: none;
+}
+.open_sideber_button, .close_sideber_button{
+  
+    display: none;
+}
+.headerline{
+    display: none;
+}
+ .links_container{ 
+    height: 100%;
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+
+
+/* banner style */
+
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.banner_content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner_content p{
+    font-size: 1.25rem;
+    
+}
+.black_btn{
+    background-color: #111111;
+}
+
+/* Curriculam Section */
+.section_title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.curriculam_card_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    justify-content: space-between;
+}
+.curriculam_card{
+    background-color: #01ACFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 0 28px 10px rgba(0, 0, 0, 0.05);
+    background: rgb(247,247,247);
+    background: linear-gradient(rgba(242, 232, 255, 1),30%,#ffffff);
+   
+    
+}
+.skyblue_gradient{
+    background: linear-gradient(rgba(222, 245, 255, 1),30%,#ffffff);
+}
+.orange_gradient{
+    background: linear-gradient(rgba(255, 244, 220, 1),30%,#ffffff);
+}
+.curriculam_card h4{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(32, 32, 32, 1);
+}
+.curriculam_card p{
+    color: #808080;
+    font-size: 1rem;
+}
+.curriculam_card a{
+    text-decoration: none;
+}
+.card_link1{
+    color: #64C8FF;
+}
+
+.card_link2{
+    color: #F0AA00;
+}
+
+.card_link3{
+    color: #8700FF;
+}
+
+.arrow{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.arrow a{
+    background-color: #F0AA00;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 25px;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    text-align: center;
+}
+
+/* Stories Section */
+.stories_section{
+ 
+   background: linear-gradient(#FFFFFF 0%, #FED07D 90%);
+   padding-bottom: 100px;
+   
+}
+.stories_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.all_stories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+    
+}
+.stories{
+   background-color: #ffffff;
+   position: relative;
+   border-radius: 16px;
+   overflow: hidden;
+}
+.stories_container img{
+    width: 100%;
+}
+.stories img{
+    width: 100%;
+}
+.main_stories{
+    height: 630px;
+    background-color: #ffffff;
+}
+.stories h4{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 40px;
+    margin: 0px;
+
+}
+.main_stories{
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.main_stories_title{
+    max-width: 400px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+}
+
+.main_stories_description{
+    font-size: 1rem;
+    padding: 40px;
+    margin: 0px; 
+}
+.publish_date_main{
+    position: absolute;
+    background-color: #3CD8E8;
+    color: white;
+    padding:15px 20px;
+    top: 55%;
+    left: 10%;
+    border-radius: 45px;
+    font-size: 1rem;
+    font-weight: 500;
+
+   
+}
+.publish_date{
+    background-color: #5D58EF;
+    color: #ffffff;
+    position: absolute;
+    top: 44%;
+    left: 16%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47px;
+   
+}
+.bg_olive{
+    background: #95B226;
+}
+.view_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+/* Footer Style */
+.footer_section{
+    background: #01ACFD;
+    padding: 50px;
+}
+.footer_container{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    
+}
+.logo_container{
+    max-width: 400px;
+}
+.footer_link{
+    color: #ffffff;
+   
+    font-weight: 500;
+}
+.footer_menu h3{
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer_menu li{
+    margin-bottom: 20px;
+}
+.social h3{
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.socail_logo a{
+    padding-right: 10px;
+}
+.footer_brand{
+    font-size: 2.6rem;
+    color: #ffffff;
+}
+.logo_container p{
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 1.25rem;
+}
+.logo img{
+    height: 65px;
+    width: 65px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small size Responsive */
+
+@media screen and (max-width:576px) {
+    
+    body{
+
+        padding-bottom: 300px;
+    }
+
+    .links_container{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        max-width: 300px;
+        background-color: #222;
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    }
+    .nav_link{
+        box-sizing: border-box;
+        padding: 20px 40px;
+        display: block;
+    }
+    
+    .nav_items{
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 50px;
+    }
+   
+    .open_sideber_button{
+        margin-right: 0;
+        float: right;
+    }
+    .open_sideber_button, .close_sideber_button{
+        margin-right: -130px;
+        display: block;
+    }
+    #sideber_active:checked ~ .links_container {
+        display: flex;
+    }
+    .primary_btn{
+        display: none;
+    }
+    .black_btn{
+        display: block;
+        margin: 0 auto;
+        padding: 10px 24px;
+        font-size: 1rem;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .brand{
+        display: none;
+    }
+    .logo img{
+        max-width: 46px;
+        max-height: 46px;
+    }
+    .banner_img  img{
+        max-width: 100%;
+     }
+    .banner_content{
+      
+        margin: 0 auto;
+    }
+    .banner_content h1{
+        font-size: 2rem;
+    }
+    .banner_content p{
+        font-size: 0.9rem;
+        
+    }
+    .headerline{
+        margin-top: 20px;
+        display: block;
+        border: 1px solid #FEA301;
+    }
+/* curriculam area */
+
+    .section_title{
+        font-size: 1.5rem;
+    }
+    .curriculam_card_container{
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+    /* Stories area */
+    .main_stories{
+        display: none;
+    }
+    .all_stories{
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+    .stories h4{
+        font-size: 0.55rem;
+        font-weight: 700;
+        padding: 23px 17px;
+        margin: 0px;
+    
+    }
+    .publish_date{
+        background-color: #5D58EF;
+        color: #ffffff;
+        position: absolute;
+        top: 53%;
+        left: 16%;
+        padding: 5px 10px;
+        font-size: 0.56rem;
+        font-weight: 500;
+        border-radius: 47px;
+       
+    }
+    .bg_olive{
+        background: #95B226;
+    }
+    .section_title{
+      
+  
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .arrow{
+        display: none;
+    }
+    .curriculam_card {
+       margin:0 20px;
+        
+    }
+    .curriculam_card h4{
+        font-size: 1rem;
+    }
+    .curriculam_card p{
+        font-size: 0.7rem;
+    }
+    .curriculam_card a{
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+    .primary_btn{
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+
+
+}
